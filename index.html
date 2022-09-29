@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>  
+    
+    <!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--jqueryLink-->
+    
+<!-- font awesome vers 6 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--google-icons--->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+
+    <meta name="theme-color" content="#212121" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/videoPlayer.css">
+
+
+</head>
+<body>
+
+<div id="overlaySheet">
+
+</div>
+
+    <div id="FullNav" class="fullSidenav">
+        <div class="barAndLogo">
+         <div class="bar">  <i class="fa fa-bars" id="barOnFullSideNav"></i></div>
+         <div class="logo-second">
+            <div class="logo x" style="height: 100%;">
+                <img src="img/logoWhite.png">
+               
+            </div>
+         </div>
+        </div>
+        <div class="sideMenu">
+           <div class="longMenu">
+            <ul>
+                <li><a href="#" class="active">  <i class="fa fa-home"></i> <span>Home</span></a> </li>
+                <li><a href="#">  <i class="fa fa-compass"></i> <span>Explore Lorem, ipsum dolor. Lorem ipsum dolor sit amet.</span></a> </li>
+                <li><a href="#">  <i class="fa fa-bolt"></i> <span>Shorts</span></a> </li>
+                <li style="border-bottom: 1px solid rgb(55,55,55);padding-bottom:10px;"><a href="#">  <i class="fa fa-shopping-bag" ></i> <span>Subscriptions</span></a> </li>
+                <li style="padding-top:10px;"><a href="#">  <i class="fa fa-solid fa-file-video"></i> <span>Library</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-clock-rotate-left"></i> <span>History</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-play"></i> <span>Your Videos</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-clock"></i> <span>Watch Later</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-bars-staggered"></i> <span>Play List</span></a> </li>
+                <li style="border-bottom: 1px solid rgb(55,55,55);padding-bottom:10px;"><a href="#">  <i class="fa fa-angle-down" ></i> <span>Show More</span></a> </li>
+                <li style="padding-top:20px;"><span class="tittleSpan">Subscriptions</span></li>
+
+
+                <li style="padding-top:10px;">
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/gatesmasher.jpg" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                            123456789012345678901234567890/12345678901234567890
+
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/logo.png" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                          YouTube Premium
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/6logo.jpg" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                         IndiaUIUX
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/chris_courses.jpg" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                        Chris Courses
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/1logo.jpg" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                        Kevin Powel
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/Technical_Sagar.jpg" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                        Technical_Sagar
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/10Logo.jpg" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                        Linux Mastery
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li style="border-bottom: 1px solid rgb(55,55,55);padding-bottom:10px;"><a href="#">  <i class="fa fa-angle-down" ></i> <span>Show More</span></a> </li>
+                <li style="padding-top:20px;"><span class="tittleSpan">More From Youtube</span></li>
+                <li style="padding-top:10px;"><a href="#">  <i class="fa fa-brands fa-youtube"></i> <span>Youtube Premium</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-film"></i> <span>Movies</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-gamepad"></i> <span>Gaming</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-tower-broadcast"></i> <span>Live</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-vest-patches"></i> <span>fashion & Beauty</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-lightbulb"></i> <span>Learning</span></a> </li>
+                <li  style="border-bottom: 1px solid rgb(55,55,55);padding-bottom:10px;"><a href="#">  <i class="fa fa-solid fa-trophy"></i> <span>Supports</span></a> </li>
+                
+                <li style="padding-top:10px;"><a href="#">  <i class="fa fa-solid fa-gear"></i> <span>Settings</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-flag"></i> <span>Report History</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-circle-question"></i> <span>Help</span></a> </li>
+                <li  style="border-bottom: 1px solid rgb(55,55,55);padding-bottom:10px;"><a href="#">  <i class="fa fa-solid fa-circle-exclamation"></i> <span>Send Feedback</span></a> </li>
+                
+                <!--about the compnay-->
+                <li style="padding-top:20px;">
+                    <span class="tittleSpan"> 
+                      <a href="">About</a>
+                      <a href="">press</a>
+                      <a href="">copyRight</a>
+                      <!-- <a href="">ContactUs</a>
+                      <a href="">Creators</a> -->
+                  </span>
+              </li>
+                <!--conatc us-->
+              <li style="padding-top:5px;">
+                <span class="tittleSpan"> 
+                  <a href="">ContactUs</a>
+                  <a href="">Creators</a>
+              </span>
+              </li>
+                 <!--cadvertiser deve-->
+              <li style="padding-top:5px;">
+                <span class="tittleSpan"> 
+                  <a href="">Advertise</a>
+                  <a href="">Developers</a>
+              </span>
+              </li>
+
+
+
+                <!--terms and Privacy and policy-->
+                <li style="padding-top:20px;">
+                    <span class="tittleSpan"> 
+                      <a href="">Terms</a>
+                      <a href="">Privacy</a>
+                      <a href="">Safety</a>
+                  </span>
+                </li>
+                <li style="padding-top:5px;">
+                    <span class="tittleSpan"> 
+                      <a href="">How YouTube works</a>
+                  </span>
+                </li>
+                <li style="padding-top:5px;">
+                    <span class="tittleSpan"> 
+                      <a href="">Test new features</a>
+                  </span>
+                </li>
+
+                <!--about the compnay-->
+                <li style="padding-top:20px;padding-bottom: 20px;color:#717171;">
+                    <span class="tittleSpan" style="font-size: 12px;font-weight:400;"> 
+                        <i class="fa-solid fa-copyright"></i>&nbsp;2022 Google LLC
+                    </span>
+                </li>
+
+
+
+            </ul>
+           </div> 
+
+        </div>
+    </div>
+    <div class="container" id="Upperhead">
+        <section id="sec1">
+   
+            <div class="header">
+                <div class="item box1">
+                    <div class="ham_barger" >
+                        <i class="fa fa-bars" id="barOnSmallSideNav"></i>
+                     </div>
+                     <div class="logo">
+                         <img src="img/logoWhite.png">
+                        
+                     </div>
+                </div>
+                <div class="item box2">
+                    <div style="color:rgb(161, 161, 161);font-size:10px;margin-top: 15px;margin-left: 5px;">IN</div>
+                    <div class="searchBox">
+                          <div  class="hideOnSmall">
+                           <input class="" type="search" placeholder="search">
+                          </div>
+                          <div class="search changePosition">
+                            <button id="ser_btn" aria-label="Search">
+                             <i class="fa fa-search resIcon"></i>
+                            </button>
+                          </div>
+                          <div class="search circle-container"">
+                            <button  id="mike" aria-label="Search">
+                                <i class="fa fa-microphone"></i>
+                            </button>
+                          </div>
+                    </div>
+                    <div id="hide_on_small"></div>
+                </div>
+                <div class="item  box3">
+                  <!-- if user is logged in then only show this iconns   -->
+                  <!-- <div class="iconBox">   
+                    <i class="fa fa-video resIcon"></i>
+                  </div>
+                  
+                  <div class="iconBox hidebellOnSmall" style="position: relative;z-index: 9;">   
+                      <i class="fa fa-bell" ></i>
+                      <div class="counter">9+</div>
+                   
+                  </div>
+                  <div class="userPic">
+                      <div id="userProfile">
+                          <img src="img/golu.jpg" alt="" srcset="">
+                   </div> -->
+                   <!-- else show the signIn button -->
+                    <a class="iconBox signIn-anchor"  href="UsIGN.html">
+                        <span class="material-icons">account_circle</span>
+                    </a>
+                  </div>
+                </div>
+
+     
+        </section>
+
+        <section>
+            <div class="Search_header">
+                <div id="ser_back_btn" class="ser_item back-btn-box">
+                    <i class="fa fa-arrow-left"></i>
+                </div>
+                <div class="ser_item">
+                    <div class="search-Container">
+
+                  <div class="h">
+                      <form action="search.php">
+                        <input type="search" name="search" id="ser_input" 
+                         style="display: inline-block;width:100%;height:50px;">
+                      </form>
+                  </div>
+
+                  <div class="i">
+                     <div class="search changePosition" style="height:100%;">
+                            <button id="q" aria-label="Search">
+                             <i class="fa fa-search fontres"></i>
+                            </button>
+                     </div>
+                  </div>
+
+                    </div>
+                    
+                </div>
+                <div class="ser_item flexCenter">
+                    <div class="search circle-container2">
+                        <button  id="mike2">
+                            <i class="fa fa-microphone fontres"></i>
+                        </button>
+                      </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    <div class="bodyContainer">
+        <div id="Sidenav" class="sideNav">
+            <div class="navItems">
+                <ul>
+                    <li><a href="#">  <i class="fa fa-home"></i> <span>Home</span></a> </li>
+                    <li><a href="#">  <i class="fa fa-compass"></i> <span>Explore</span></a> </li>
+                    <li><a href="#">  <i class="fa fa-bolt"></i> <span>Shorts</span></a> </li>
+                    <li><a href="#">  <i class="fa fa-shopping-bag"></i> <span>Subscriptions</span></a> </li>
+                    <li><a href="#">  <i class="fa fa-book"></i> <span>Library</span></a> </li>
+                </ul>
+            </div>
+          
+        </div>
+
+        <div id="RightContainer" class="rightContainer">
+
+            <div class="hrScrollContainer" id="intrestBox">
+
+                <div class="slider-control-btn slide-prev"><i class="fa fa-angle-left"></i></div>
+
+            <div class="chipsContainer">
+               <div id="innerBtnWraper" style="display: flex;">
+                <button class="intBtn">Neha Kakar1</button>
+                <button class="intBtn">YouTube Music2</button>
+                <button class="intBtn">Oggy and the cockroches3</button>
+                <button class="intBtn">Civil services4</button>
+                <button class="intBtn">Computer Science5</button>
+                <button class="intBtn">Fortend Devellopers6</button>
+                <button class="intBtn">Neha Kakar7</button>
+                <button class="intBtn">YouTube Music8</button>
+                <button class="intBtn">Oggy and the cockroches9</button>
+                <button class="intBtn">Civil services10</button>
+                <button class="intBtn">Computer Science11</button>
+                <button class="intBtn">Fortend Devellopers12</button>
+                <button class="intBtn">Fortend Devellopers13</button>
+                <button class="intBtn">Fortend Devellopers14</button>
+                <button class="intBtn">Fortend Devellopers15</button>
+                <button class="intBtn">Neha Kakar16</button>
+                <button class="intBtn">YouTube Music17</button>
+                <button class="intBtn">Oggy and the cockroches18</button>
+                <button class="intBtn">Civil services19</button>
+                <button class="intBtn">Computer Science20</button>
+                <button class="intBtn">Oggy and the cockroches21</button>
+                <button class="intBtn">Civil services22</button>
+                <button class="intBtn lastItem">Computer Science23</button>
+               </div>   
+            </div>
+
+                <div class="slider-control-btn slide-next"><i class="fa fa-angle-right"></i></div>
+           
+            </div><!--chips scroller closed-->
+
+         <div class="contentBox" style="overflow-x: hidden;">
+
+           <div class="contentMainGridContainer">
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/1Thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                          28:29
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/1logo.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                               Follow this 5 steps to improve your sass skills 
+                            </div>
+                            <div class="chanellName">
+                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>303k views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>99 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup " data-video-identifier="xxxxxx1">
+                            <i class="fas fa-ellipsis-v"> </i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/2Thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                          10:20
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/2logo.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                               Caption america winter solider fight scen
+                            </div>
+                            <div class="chanellName">
+                              <a href="">Marvel Cineamatic <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>500k views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>9 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx2">
+                            <i class="fas fa-ellipsis-v "> </i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/3Thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                          28:29
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/gatesmasher.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                               Follow this 5 steps to improve your sass skills 
+                            </div>
+                            <div class="chanellName">
+                              <a href="">Science_Friction <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>403k views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>3 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx3">
+                            <i class="fas fa-ellipsis-v "> </i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/4Thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                          2:40:25
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/4logo.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                                Ajab Prem ki Gajab kahani full movie
+                            </div>
+                            <div class="chanellName">
+                              <a href="">SuperHit Movies <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>1.1M views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>1 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx4">
+                            <i class="fas fa-ellipsis-v "> </i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/5thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         10:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/4logo.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                              south indian movie best romatic scen
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">SuperHit Movies <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>1.1M views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>1 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx5">
+                            <i class="fas fa-ellipsis-v "> </i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/6Thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         10:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/6logo.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                            How does designer and developer get cheated MNC
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">IndiaUIUX <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>1.1M views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>1 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx6">
+                            <i class="fas fa-ellipsis-v "> </i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/7Thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         10:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/mrBean.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                            MR. Bean funny moments compilation
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">MR. Bean <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>5.1M views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>3 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx7">
+                            <i class="fas fa-ellipsis-v "> </i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/8thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         10:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/oogy_youtube.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                            Oggy and the cockraches full episode in hindi
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">The Oggy <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>5M views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>6 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx8">
+                            <i class="fas fa-ellipsis-v "> </i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/9Thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         7:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/ben10Logo.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                            who will win flash or Xlr8
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">the carttonist<i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>1M views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>1 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx9">
+                            <i class="fas fa-ellipsis-v "> </i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/10Thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         10:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/indiaUiUx.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                            UI Designer salary in india expection Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">IndiaUIUX <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>200k views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>2 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx10">
+                            <i class="fas fa-ellipsis-v "></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/11Thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         10:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/indiaUiUx.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                            What should web designer must know
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">IndiaUIUX<i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>5M views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>6 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx11">
+                            <i class="fas fa-ellipsis-v "  ></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/12Thumbnail.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         10:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/10Logo.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                            How to use SSH to connect to remote server
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">Linux Mastery <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>500k views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>3 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx12" >
+                            <i class="fas fa-ellipsis-v " ></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/13Host-Website-On-Our-Own-Server.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         10:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/10Logo.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                           Host website on your own
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">Linux Mastery <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>500k views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>2 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx13" >
+                            <i class="fas fa-ellipsis-v "></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/14PythonModule.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         10:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/10Logo.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                            Python Module to generate QR code
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">Linux Mastery <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>500k views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>3 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup" data-video-identifier="xxxxxx14">
+                            <i class="fas fa-ellipsis-v "  ></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gridItem_as_thumbnail_container">
+
+                    <div class="thumbnails_wraper">
+
+                        <a href="videoPlayer.html">
+                        <img  src="img/thumbnail9.jpg" alt="" srcset="">
+
+                        <div class="video_length_box">
+                         10:00
+                        </div>
+                        <div class="upperControl_btns_on_hover">
+                           <div  class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                           <div class="addToQueueBox">
+                           <div id="text_tog"></div>  <div><i class="fa-solid fa-bars-staggered"></i></div>
+                           </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="video_lower_box">
+                        <div class="chanell_icon_boX">
+                            <img src="img/ben10Logo.jpg" alt="" srcset="">
+                        </div>
+                        <div class="video_and_chanell_description">
+                          
+                            <div   class="videoDesc">
+                            Ben 10 carrton episode 10 in hindi
+                            
+                            </div>
+                            <div class="chanellName">
+                              <a href="">Ben 10 classic <i class="fa-solid fa-check-circle"></i></a>  
+                            </div>
+                            <div class="views">
+                                <span>500k views</span>
+                                <span class="smallDot">&#9679</span>
+                                <span>3 years ago</span>
+                            </div>
+
+                        </div>
+                        <div class="dots_for_popup " data-video-identifier="xxxxxx15">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+           </div>
+
+
+           
+         </div>
+
+        </div><!--ri8 container closed-->
+
+        </div><!--bodycontainer closed -->
+
+    <div class="popupMenuForVideos">
+        <ul>
+            <li> <i class="fa-solid fa-clock"></i> <span>Save to watch later</span></li>
+            <li> <i class="fa-solid fa-download"></i> <span>Download</span></li>
+            <li> <i class="fa-solid fa-bars-staggered"></i> <span>Save to playlist</span></li>
+            <li> <i class="fa-solid fa-share"></i> <span>Share</span></li>
+
+            <li style="border-bottom:0.5px solid rgba(87, 87, 87, 0.671);padding: 0;margin: 8px 0px; "></li>
+      
+            <li> <i class="fa-solid fa-ban"></i> <span>Not Intrested</span></li>
+            <li> <i class="fa-solid fa-circle-minus"></i> <span>Don't recommend channel </span></li>
+            <li> <i class="fa-solid fa-flag"></i> <span>Report</span></li>
+        </ul>
+    </div> 
+
+    <script src="js/layout.js"></script>
+ </body>
+</html>

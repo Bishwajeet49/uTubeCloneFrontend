@@ -1,0 +1,1810 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>  
+    
+    <!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--jqueryLink-->
+    
+<!-- font awesome vers 6 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--google-icons--->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+
+    <meta name="theme-color" content="#212121" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/videoPlayer.css">
+
+
+</head>
+<body>
+
+<div id="overlaySheet">
+
+</div>
+
+    <div id="FullNav" class="fullSidenav">
+        <div class="barAndLogo">
+         <div class="bar">  <i class="fa fa-bars" id="barOnFullSideNav"></i></div>
+         <div class="logo-second">
+            <div class="logo x" style="height: 100%;">
+                <img src="img/logoWhite.png">
+               
+            </div>
+         </div>
+        </div>
+        <div class="sideMenu">
+           <div class="longMenu">
+            <ul>
+                <li><a href="#" class="active">  <i class="fa fa-home"></i> <span>Home</span></a> </li>
+                <li><a href="#">  <i class="fa fa-compass"></i> <span>Explore Lorem, ipsum dolor. Lorem ipsum dolor sit amet.</span></a> </li>
+                <li><a href="#">  <i class="fa fa-bolt"></i> <span>Shorts</span></a> </li>
+                <li style="border-bottom: 1px solid rgb(55,55,55);padding-bottom:10px;"><a href="#">  <i class="fa fa-shopping-bag" ></i> <span>Subscriptions</span></a> </li>
+                <li style="padding-top:10px;"><a href="#">  <i class="fa fa-solid fa-file-video"></i> <span>Library</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-clock-rotate-left"></i> <span>History</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-play"></i> <span>Your Videos</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-clock"></i> <span>Watch Later</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-bars-staggered"></i> <span>Play List</span></a> </li>
+                <li style="border-bottom: 1px solid rgb(55,55,55);padding-bottom:10px;"><a href="#">  <i class="fa fa-angle-down" ></i> <span>Show More</span></a> </li>
+                <li style="padding-top:20px;"><span class="tittleSpan">Subscriptions</span></li>
+
+
+                <li style="padding-top:10px;">
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/gatesmasher.jpg" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                            123456789012345678901234567890/12345678901234567890
+
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/logo.png" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                          YouTube Premium
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/6logo.jpg" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                         IndiaUIUX
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/chris_courses.jpg" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                        Chris Courses
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/1logo.jpg" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                        Kevin Powel
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/Technical_Sagar.jpg" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                        Technical_Sagar
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#" class="channelName_anchor">  
+                        <div class="chanelIcon">
+                            <img src="img/10Logo.jpg" alt="" srcset="">
+                        </div> 
+                        <span class="chanelName">
+                        Linux Mastery
+                       </span>
+                       <div class="chanelIconLive">
+                       <i class="fa fa-wifi"></i>
+                    </div> 
+                    </a> 
+                </li>
+
+                <li style="border-bottom: 1px solid rgb(55,55,55);padding-bottom:10px;"><a href="#">  <i class="fa fa-angle-down" ></i> <span>Show More</span></a> </li>
+                <li style="padding-top:20px;"><span class="tittleSpan">More From Youtube</span></li>
+                <li style="padding-top:10px;"><a href="#">  <i class="fa fa-brands fa-youtube"></i> <span>Youtube Premium</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-film"></i> <span>Movies</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-gamepad"></i> <span>Gaming</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-tower-broadcast"></i> <span>Live</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-vest-patches"></i> <span>fashion & Beauty</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-lightbulb"></i> <span>Learning</span></a> </li>
+                <li  style="border-bottom: 1px solid rgb(55,55,55);padding-bottom:10px;"><a href="#">  <i class="fa fa-solid fa-trophy"></i> <span>Supports</span></a> </li>
+                
+                <li style="padding-top:10px;"><a href="#">  <i class="fa fa-solid fa-gear"></i> <span>Settings</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-flag"></i> <span>Report History</span></a> </li>
+                <li><a href="#">  <i class="fa fa-solid fa-circle-question"></i> <span>Help</span></a> </li>
+                <li  style="border-bottom: 1px solid rgb(55,55,55);padding-bottom:10px;"><a href="#">  <i class="fa fa-solid fa-circle-exclamation"></i> <span>Send Feedback</span></a> </li>
+                
+                <!--about the compnay-->
+                <li style="padding-top:20px;">
+                    <span class="tittleSpan"> 
+                      <a href="">About</a>
+                      <a href="">press</a>
+                      <a href="">copyRight</a>
+                      <!-- <a href="">ContactUs</a>
+                      <a href="">Creators</a> -->
+                  </span>
+              </li>
+                <!--conatc us-->
+              <li style="padding-top:5px;">
+                <span class="tittleSpan"> 
+                  <a href="">ContactUs</a>
+                  <a href="">Creators</a>
+              </span>
+              </li>
+                 <!--cadvertiser deve-->
+              <li style="padding-top:5px;">
+                <span class="tittleSpan"> 
+                  <a href="">Advertise</a>
+                  <a href="">Developers</a>
+              </span>
+              </li>
+
+
+
+                <!--terms and Privacy and policy-->
+                <li style="padding-top:20px;">
+                    <span class="tittleSpan"> 
+                      <a href="">Terms</a>
+                      <a href="">Privacy</a>
+                      <a href="">Safety</a>
+                  </span>
+                </li>
+                <li style="padding-top:5px;">
+                    <span class="tittleSpan"> 
+                      <a href="">How YouTube works</a>
+                  </span>
+                </li>
+                <li style="padding-top:5px;">
+                    <span class="tittleSpan"> 
+                      <a href="">Test new features</a>
+                  </span>
+                </li>
+
+                <!--about the compnay-->
+                <li style="padding-top:20px;padding-bottom: 20px;color:#717171;">
+                    <span class="tittleSpan" style="font-size: 12px;font-weight:400;"> 
+                        <i class="fa-solid fa-copyright"></i>&nbsp;2022 Google LLC
+                    </span>
+                </li>
+
+
+
+            </ul>
+           </div> 
+
+        </div>
+    </div>
+    <div class="container" id="Upperhead">
+        <section id="sec1">
+   
+            <div class="header">
+                <div class="item box1">
+                    <div class="ham_barger" >
+                        <i class="fa fa-bars" id="barOnSmallSideNav"></i>
+                     </div>
+                     <div class="logo">
+                         <img src="img/logoWhite.png">
+                        
+                     </div>
+                </div>
+                <div class="item box2">
+                    <div style="color:rgb(161, 161, 161);font-size:10px;margin-top: 15px;margin-left: 5px;">IN</div>
+                    <div class="searchBox">
+                          <div  class="hideOnSmall">
+                           <input class="" type="search" placeholder="search">
+                          </div>
+                          <div class="search changePosition">
+                            <button id="ser_btn" aria-label="Search">
+                             <i class="fa fa-search resIcon"></i>
+                            </button>
+                          </div>
+                          <div class="search circle-container"">
+                            <button  id="mike" aria-label="Search">
+                                <i class="fa fa-microphone"></i>
+                            </button>
+                          </div>
+                    </div>
+                    <div id="hide_on_small"></div>
+                </div>
+                <div class="item  box3">
+                  <!-- if user is logged in then only show this iconns   -->
+                  <!-- <div class="iconBox">   
+                    <i class="fa fa-video resIcon"></i>
+                  </div>
+                  
+                  <div class="iconBox hidebellOnSmall" style="position: relative;z-index: 9;">   
+                      <i class="fa fa-bell" ></i>
+                      <div class="counter">9+</div>
+                   
+                  </div>
+                  <div class="userPic">
+                      <div id="userProfile">
+                          <img src="img/golu.jpg" alt="" srcset="">
+                   </div> -->
+                   <!-- else show the signIn button -->
+                    <a class="iconBox signIn-anchor" href="UsIGN.html">
+                        <span class="material-icons">account_circle</span>
+                    </a>
+                  </div>
+                </div>
+
+     
+        </section>
+
+        <section>
+            <div class="Search_header">
+                <div id="ser_back_btn" class="ser_item back-btn-box">
+                    <i class="fa fa-arrow-left"></i>
+                </div>
+                <div class="ser_item">
+                    <div class="search-Container">
+
+                  <div class="h">
+                      <form action="search.php">
+                        <input type="search" name="search" id="ser_input" 
+                         style="display: inline-block;width:100%;height:50px;">
+                      </form>
+                  </div>
+
+                  <div class="i">
+                     <div class="search changePosition" style="height:100%;">
+                            <button id="q" aria-label="Search">
+                             <i class="fa fa-search fontres"></i>
+                            </button>
+                     </div>
+                  </div>
+
+                    </div>
+                    
+                </div>
+                <div class="ser_item flexCenter">
+                    <div class="search circle-container2">
+                        <button  id="mike2">
+                            <i class="fa fa-microphone fontres"></i>
+                        </button>
+                      </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    <div class="bodyContainer">
+        <div id="Sidenav" class="sideNav">
+            <div class="navItems">
+                <ul>
+                    <li><a href="#">  <i class="fa fa-home"></i> <span>Home</span></a> </li>
+                    <li><a href="#">  <i class="fa fa-compass"></i> <span>Explore</span></a> </li>
+                    <li><a href="#">  <i class="fa fa-bolt"></i> <span>Shorts</span></a> </li>
+                    <li><a href="#">  <i class="fa fa-shopping-bag"></i> <span>Subscriptions</span></a> </li>
+                    <li><a href="#">  <i class="fa fa-book"></i> <span>Library</span></a> </li>
+                </ul>
+            </div>
+          
+        </div>
+
+
+        <div id="RightContainer" class="rightContainer">
+
+
+         <div class="contentBox" id="contentBox" style="overflow-x: hidden;">
+
+           <div id="removeGrid" class="video_player_and_suggestion_grid  disableTheaterMode">
+
+            <div class="videoPlayerSide">
+               
+
+                 <div class="video-container paused" data-volume-level="high" style="color: black;">
+              
+                  <div class="additional-controls-container">
+
+                
+
+                     <div class="left-backward-animation-container">
+                       <div class="leftSide"> 
+                         <div class="left-side-arrow"></div>
+                         <div class="left-side-arrow"></div>
+                         <div class="left-side-arrow"></div>
+                       </div>
+                       <div class="ten-seconds-txt">10 Seconds</div>
+                     </div>
+
+                   
+
+                     <div class="center-container"> 
+
+                      <div class="left-prev-btn-container">
+                          <button class="skip-prev-button">
+                            <span class="material-icons">
+                              skip_previous
+                            </span>
+                          </button>
+                      </div>
+
+                      <div class="center-play-btn-container paused" style="border:1px solid none;">
+                        <button class="play-pause-wraper">
+                          <span class="material-icons pl-icon">
+                            play_arrow
+                          </span>
+                          <span class="material-icons ps-icon">
+                            pause
+                          </span>
+                        </button>
+                      </div>
+
+                      <div class="right-next-btn-container">
+                          <button class="skip-next-button">
+                            <span class="material-icons">
+                              skip_next
+                            </span>
+                          </button>
+                      </div>
+
+
+
+                     </div>
+
+                     <div class="right-frd-animation-container">
+                      <div class="rightSide">
+                        <div class="right-side-arrow"></div>
+                        <div class="right-side-arrow"></div>
+                        <div class="right-side-arrow"></div>                    
+                      </div>
+                      <div class="ten-seconds-txt">10 Seconds</div>
+                     </div>
+
+                  </div>
+                  
+                  <div class="timeline-container">
+                    <div class="timeline">
+                      <img class="preview-img">
+                      <div class="thumb-indicator"></div>
+                    </div>
+                  </div>
+                  
+                  <img class="thumbnail-img">
+                  <div class="video-controls-container">
+                    <div class="controls">
+                      
+                      <button class="play-pause-btn">
+                        <svg class="play-icon" viewBox="0 0 24 24">
+                          <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                        </svg>
+                        <svg class="pause-icon" viewBox="0 0 24 24">
+                          <path fill="currentColor" d="M14,19H18V5H14M6,19H10V5H6V19Z" />
+                        </svg>
+                      </button>
+              
+                      <div class="volume-container">
+                        <button class="mute-btn">
+                          <svg class="volume-high-icon" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
+                          </svg>
+                          <svg class="volume-low-icon" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M5,9V15H9L14,20V4L9,9M18.5,12C18.5,10.23 17.5,8.71 16,7.97V16C17.5,15.29 18.5,13.76 18.5,12Z" />
+                          </svg>
+                          <svg class="volume-muted-icon" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" />
+                          </svg>
+                        </button>
+                        <input class="volume-slider" type="range" min="0" max="1" step="any" value="1" >
+                      </div>                  
+              
+                      <div class="duration-container">
+                          <div class="current-time">0:00</div>
+                          /
+                          <div class="total-time">10:00</div>
+                      </div>         
+                 
+                      <span class="rightSideBtns">
+                      <button class="mini-player-btn">
+                        <svg viewBox="0 0 24 24">
+                          <path fill="currentColor" d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zm-10-7h9v6h-9z"/>
+                        </svg>
+                      </button>
+
+                      <button class="theater-btn">
+                        <svg class="tall" viewBox="0 0 24 24">
+                          <path fill="currentColor" d="M19 6H5c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 10H5V8h14v8z"/>
+                        </svg>
+                        <svg class="wide" viewBox="0 0 24 24">
+                          <path fill="currentColor" d="M19 7H5c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 8H5V9h14v6z"/>
+                        </svg>
+                      </button>
+
+                      <button class="full-screen-btn">
+                        <svg class="open" viewBox="0 0 24 24">
+                          <path fill="currentColor" d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
+                        </svg>
+                        <svg class="close" viewBox="0 0 24 24">
+                          <path fill="currentColor" d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"/>
+                        </svg>
+                      </button>
+
+                      </span>                     
+
+                    </div>
+                  </div>
+                  <video src="video1.mp4" utoplay></video>
+
+                 </div>
+                 
+                 <div class="video-header-container video-title-and-utilities-container">
+                   <div class="videoTittle">
+                    DUBAI, United Arab Emirates In 8K ULTRA HD HDR 60 FPS.
+                   </div>
+
+                   <div class="video-utilities">
+
+                    <div class="left-vid-utilities">
+                      <div class="Vid-views">7.3M views</div>
+                      <div class="seprater"></div>
+                      <div class="vid-date">Feb 16, 2022</div>
+                    </div>
+
+                       
+
+                       
+                        <button class="vid-header-icon">
+                          <span class="material-icons">thumb_up_off_alt</span>
+                          <span>31K</span>
+                        </button>
+                       
+
+                     
+                        <button class="vid-header-icon">
+                          <span class="material-icons">thumb_down_off_alt</span>
+                          <span>11K</span>
+                        </button>
+                      
+
+                      
+                        <button class="vid-header-icon">
+                          <span class="material-icons">reply</span>
+                          <span>SHARE</span>
+                        </button>
+                      
+
+                       <div class="save-icon-box">
+                        <button class="vid-header-icon">
+                          <span class="material-icons">playlist_add</span>
+                          <span>SAVE</span>
+                        </button>
+                       </div>
+
+                       
+                       
+                        <button class="vid-header-icon elpsis">
+                          <span class="material-icons" style="margin-right:0px;">more_horiz</span>
+                        </button>
+                      
+
+                  </div>
+
+                 </div>
+                 <div class="video-header-container">
+                    <div class="chanel-header-container">
+                    
+                         <div class="clogo-round">
+                             <a href="">
+                              <img src="img/carry.jpg">
+                             </a>
+                         </div>
+                         <div class="c-name-and-subscriber-count">
+                            <div class="c-name"> 8K Earth</div>
+                            <div class="c-sbuscriber-count">56.8K subscribers</div>
+                         </div>
+                         <div class="custom-button-wraper">
+                            <button class="btn-red">
+                              SUBSCRIBE
+                            </button>
+                         </div>
+
+ 
+                    </div>
+                    <div class="vid-description toggle-show-more-show-less-txt">
+                       <div class="vid-desc-txt">
+This video was created for educational, entertainment, and informative purposes and as a demo for
+4K /8K TV sets. The editing process is one of the most difficult steps in creating a quality video.
+
+THIS VIDEO WAS RE-EDITED IN HDR 10 STANDARD AND COLOR CORRECTED (HIGH COLOR
+CORRECTION, COLOR GRADING, ADJUSTED THE BLACKS, ADJUSTED THE HIGHLIGHTS 
+AND THE SATURATION)
+
+MUSIC CREDITS:
+
+🔻
+"Scott Buckley - Freedom" is under a Creative Commons license (CC BY 3.0)
+ https://www.youtube.com/user/musicbys... 
+Music promoted by BreakingCopyright: https://bit.ly/freedom-song
+🔺
+
+Composer: Whitesand (Martynas Lau)
+Year: 2021
+Title: No More Running Away
+https://youtu.be/te9Kh0P4kRo
+                       </div>
+                       <div class="show-more-show-less-btn"></div>
+                    </div>
+                    <div class="line-seprator"></div>
+                 </div>
+
+                 <div id="commentBox" class="video-header-container">
+                 
+                  <div class="comment-header-container">
+
+                    <div class="c-header">
+                       <div class="total-comments">1,186 Comments</div>
+                    
+                       <div class="c-sorting-container">
+
+                        <div id="comment-sort-btn" onclick="toggleCommentSortPop(event)">
+                          <button class="vid-header-icon vhi-ReCustomize" >
+                            <span class="material-icons mi-ReCustomize" >sort</span>
+                            <span>SORT</span>
+                          </button>
+                         </div>
+
+                           <!-- <div class="sorting-pop-up-menu"> -->
+                            <div class="popupMenu-For-C-Sorting">
+                              <ul>
+                                  <li class="topComment">Top Comments </li>
+                                  <li>Newest first</li>
+                              </ul>
+                            </div>
+                           <!-- </div> -->
+
+                       </div>
+
+                    </div>
+
+                    <!--interface for commenting-->
+                    <div class="c-container">
+                    
+                      <div class="userImg-round">
+                        <img src="img/defaultUser.jpg">
+                        <!--if user is loogged in show his profile picture-->
+                      </div>
+
+                      <div class="right-container">
+
+                    <div class="anim-container">
+                      <div class="comment-input-line" contenteditable="true" >
+                        add a comment...
+                      </div>
+                     <div class="Anim-line"></div>
+                    </div>
+
+                    <div class="custom-button-wraper comment-btns-container">
+
+                        <button style="margin-right:15px;background-color: transparent;color:#aaaaaa;">
+                          CANCEL
+                        </button>
+                        <BUTTON class="btn-sky-blue">
+                          COMMENT
+                        </BUTTON>
+                    </div>
+
+                    </div>
+                    
+                    </div>
+                    
+
+                    <!--first--comment-->
+                    <div class="c-container">
+                    
+                      <div class="userImg-round">
+                        <img src="img/defaultUser.jpg">
+                        <!--if user is loogged in show his profile picture-->
+                      </div>
+                      <div class="right-container user-comment-container">
+                    
+                        <div class="user-details">
+                          <div class="user-name">
+                            John doe
+                          </div>
+                          <div class="comment-date">18 hours ago</div>
+                          <div class="reportBtnWraper">
+                    
+                            <span class="material-icons">more_vert</span>
+                    
+                          </div>
+                        </div>
+                    
+                        <div class="comm-wraper toggle-show-more-less-comm-btn">
+                          <div class="comm-txt">
+                            Unrequited love and the melody of this song take you on another level. Rather.... this masterpiece gives one the
+                            courage to stand tall against all odds and obstacles in love. This is a miasma of your breath against that
+                            person lorem lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sint deserunt optio
+                            autem facere fuga ullam adipisci unde dolor ea, sequi impedit aperiam tempore velit nihil, neque natus
+                            consectetur? Hic! who you're fighting for. A life saver to say the least 🥰❤️
+                          </div>
+                          <div class="show-more-less-comm-btn" onclick="handleToogling(event)"></div>
+                        </div>
+                    
+                    
+                        <div class="like-dislike-replay-container">
+                    
+                          <button class="vid-header-icon small-cust-btns">
+                            <span class="material-icons sm-icon" style="margin-right:10px">thumb_up_off_alt</span>
+                            <span>999.1k</span>
+                          </button>
+                    
+                    
+                          <button class="vid-header-icon small-cust-btns">
+                            <span class="material-icons sm-icon" style="margin-right:10px">thumb_down_off_alt</span>
+                            <span>999.1M</span>
+                          </button>
+                    
+                          <button class="vid-header-icon small-cust-btns align-right-on-sm" onclick="open_level0_replayContainer(event)">
+                            REPLAY
+                          </button>
+                    
+                        </div>
+                    
+                        <!--interface for replaying-->
+                        <div class="r-container replayBox">
+                    
+                          <div class="login-user">
+                            <img src="img/defaultUser.jpg">
+                            <!--if user is loogged in show his profile picture-->
+                          </div>
+
+                          <div class="right-container">
+                            <div class="anim-container" onclick="focusWithin(this,event);">
+                              <div class="comment-input-line" contenteditable="true" oninput="countLength(this)" >
+                              </div>
+                              <div class="Anim-line"></div>
+                            </div>
+                            <div class="custom-button-wraper replay-btns-container">
+                              <button style="margin-right:15px;background-color: transparent;color:#aaaaaa;"
+                                onclick="close_level0_replayContainer(this,event)">CANCEL</button>
+                              <BUTTON  class="btn-sky-blue" onclick="submitReplay(this,event)">Replay</BUTTON>
+                            </div>
+                            
+                          </div>
+                    
+                        </div>
+                    
+                        <!--replay loader-->
+                        <div class="loader"></div>
+                    
+                        
+
+                        <!--interface for showing all replaies-->
+                        <div></div>
+                    
+                        <!-- interface for show replay user
+                        <div class="r-container">
+                    
+                          <div class="login-user">
+                            <img src="img/defaultUser.jpg">
+                           
+                          </div>
+                        
+                          <div class="right-container">
+                        
+                            <div class="user-details">
+                        
+                              <div class="user-name">
+                                Bishwajeet Pandey
+                              </div>
+                        
+                              <div class="comment-date">2 hours ago</div>
+                        
+                              <div class="reportBtnWraper">
+                                <span class="material-icons">more_vert</span>
+                              </div>
+                        
+                            </div>
+                        
+                            <div class="repl-txt">
+                              bishwajeet Pandey
+                        Bishwajeet Pandey
+                        1 second ago
+                        he was true legend
+
+                         <div class="show-more-less-repl-btn"></div>
+                        
+                            </div>
+                        
+                          </div>
+                        
+                        </div> -->
+
+                        
+
+                      </div>
+                    
+                    </div>
+
+                    <!--second--comment-->
+                    <div class="c-container">
+                                        
+                        <div class="userImg-round">
+                                            <img src="img/defaultUser.jpg">
+                                            <!--if user is loogged in show his profile picture-->
+                        </div>
+                         <div class="right-container user-comment-container">
+                                          
+                                            <div class="user-details">
+                                              <div class="user-name">
+                                                Jan doe
+                                              </div>
+                                              <div class="comment-date">18 hours ago</div>
+                                              <div class="reportBtnWraper">
+                                          
+                                                <span class="material-icons">more_vert</span>
+                                          
+                                              </div>
+                                            </div>
+                                          
+                                            <div class="comm-wraper toggle-show-more-less-comm-btn">
+                                              <div class="comm-txt">
+                                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aspernatur amet est suscipit a similique! Asperiores ipsa dolores magni maiores iste odit id facere a. Voluptates omnis eveniet adipisci itaque.                                                
+                                              </div>
+                                              <div class="show-more-less-comm-btn" onclick="handleToogling(event)"></div>
+                                            </div>
+                                          
+                                          
+                                            <div class="like-dislike-replay-container">
+                                          
+                                              <button class="vid-header-icon small-cust-btns">
+                                                <span class="material-icons sm-icon" style="margin-right:10px">thumb_up_off_alt</span>
+                                                <span>999.1k</span>
+                                              </button>
+                                          
+                                          
+                                              <button class="vid-header-icon small-cust-btns">
+                                                <span class="material-icons sm-icon" style="margin-right:10px">thumb_down_off_alt</span>
+                                                <span>999.1M</span>
+                                              </button>
+                                          
+                                              <button class="vid-header-icon small-cust-btns align-right-on-sm" onclick="open_level0_replayContainer(event)">
+                                                REPLAY
+                                              </button>
+                                          
+                                            </div>
+                                          
+                                            <!--interface for replaying-->
+                                            <div class="r-container replayBox">
+                                          
+                                              <div class="login-user">
+                                                <img src="img/defaultUser.jpg">
+                                                <!--if user is loogged in show his profile picture-->
+                                              </div>
+                                          
+                                              <div class="right-container">
+                                                <div class="anim-container" onclick="focusWithin(this,event);">
+                                                  <div class="comment-input-line" contenteditable="true" oninput="countLength(this)">
+                                                  </div>
+                                                  <div class="Anim-line"></div>
+                                                </div>
+                                                <div class="custom-button-wraper replay-btns-container">
+                                                  <button style="margin-right:15px;background-color: transparent;color:#aaaaaa;"
+                                                    onclick="close_level0_replayContainer(this,event)">CANCEL</button>
+                                                  <BUTTON class="btn-sky-blue" onclick="submitReplay(this,event)">Replay</BUTTON>
+                                                </div>
+                                          
+                                              </div>
+                                          
+                                            </div>
+                                          
+                                            <!--replay loader-->
+                                          
+                                            <div class="loader"></div>
+                                          
+                                          
+                                          
+                                            <!--interface for showing all replaies-->
+                                            <div></div>
+                                          
+                                            <!-- interface for show replay user
+                                                                                                                                                                      <div class="r-container">
+                                                                                                                                                                  
+                                                                                                                                                                        <div class="login-user">
+                                                                                                                                                                          <img src="img/defaultUser.jpg">
+                                                                                                                                                                         
+                                                                                                                                                                        </div>
+                                                                                                                                                                      
+                                                                                                                                                                        <div class="right-container">
+                                                                                                                                                                      
+                                                                                                                                                                          <div class="user-details">
+                                                                                                                                                                      
+                                                                                                                                                                            <div class="user-name">
+                                                                                                                                                                              Bishwajeet Pandey
+                                                                                                                                                                            </div>
+                                                                                                                                                                      
+                                                                                                                                                                            <div class="comment-date">2 hours ago</div>
+                                                                                                                                                                      
+                                                                                                                                                                            <div class="reportBtnWraper">
+                                                                                                                                                                              <span class="material-icons">more_vert</span>
+                                                                                                                                                                            </div>
+                                                                                                                                                                      
+                                                                                                                                                                          </div>
+                                                                                                                                                                      
+                                                                                                                                                                          <div class="repl-txt">
+                                                                                                                                                                            bishwajeet Pandey
+                                                                                                                                                                      Bishwajeet Pandey
+                                                                                                                                                                      1 second ago
+                                                                                                                                                                      he was true legend
+                                                                                                                                                                      
+                                                                                                                                                                          </div>
+                                                                                                                                                                      
+                                                                                                                                                                        </div>
+                                                                                                                                                                      
+                                                                                                                                                                      </div> -->
+                                          
+                                          
+                                          
+                         </div>
+                    </div>
+
+                                        <!--third--comment-->
+                                        <div class="c-container">
+                                        
+                                          <div class="userImg-round">
+                                            <img src="img/defaultUser.jpg">
+                                            <!--if user is loogged in show his profile picture-->
+                                          </div>
+                                          <div class="right-container user-comment-container">
+                                        
+                                            <div class="user-details">
+                                              <div class="user-name">
+                                                Alan waker
+                                              </div>
+                                              <div class="comment-date">3 hours ago</div>
+                                              <div class="reportBtnWraper">
+                                        
+                                                <span class="material-icons">more_vert</span>
+                                        
+                                              </div>
+                                            </div>
+                                        
+                                            <div class="comm-wraper toggle-show-more-less-comm-btn">
+                                              <div class="comm-txt">
+                                                lorem lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sint deserunt optio
+                                                autem facere fuga ullam adipisci unde dolor ea, sequi impedit aperiam tempore velit nihil, neque natus
+                                                consectetur? Hic! who you're fighting for. A life saver to say the least 🥰❤️
+                                              </div>
+                                              <div class="show-more-less-comm-btn" onclick="handleToogling(event)"></div>
+                                            </div>
+                                        
+                                        
+                                            <div class="like-dislike-replay-container">
+                                        
+                                              <button class="vid-header-icon small-cust-btns">
+                                                <span class="material-icons sm-icon" style="margin-right:10px">thumb_up_off_alt</span>
+                                                <span>999.1k</span>
+                                              </button>
+                                        
+                                        
+                                              <button class="vid-header-icon small-cust-btns">
+                                                <span class="material-icons sm-icon" style="margin-right:10px">thumb_down_off_alt</span>
+                                                <span>999.1M</span>
+                                              </button>
+                                        
+                                              <button class="vid-header-icon small-cust-btns align-right-on-sm" onclick="open_level0_replayContainer(event)">
+                                                REPLAY
+                                              </button>
+                                        
+                                            </div>
+                                        
+                                            <!--interface for replaying-->
+                                            <div class="r-container replayBox">
+                                        
+                                              <div class="login-user">
+                                                <img src="img/defaultUser.jpg">
+                                                <!--if user is loogged in show his profile picture-->
+                                              </div>
+                                        
+                                              <div class="right-container">
+                                                <div class="anim-container" onclick="focusWithin(this,event);">
+                                                  <div class="comment-input-line" contenteditable="true" oninput="countLength(this)">
+                                                  </div>
+                                                  <div class="Anim-line"></div>
+                                                </div>
+                                                <div class="custom-button-wraper replay-btns-container">
+                                                  <button style="margin-right:15px;background-color: transparent;color:#aaaaaa;"
+                                                    onclick="close_level0_replayContainer(this,event)">CANCEL</button>
+                                                  <BUTTON class="btn-sky-blue" onclick="submitReplay(this,event)">Replay</BUTTON>
+                                                </div>
+                                        
+                                              </div>
+                                        
+                                            </div>
+                                        
+                                            <!--replay loader-->
+                                            <div class="loader"></div>
+                                        
+                                        
+                                        
+                                            <!--interface for showing all replaies-->
+                                            <div></div>
+                                        
+                                          </div>
+                                        
+                                        </div>
+
+                                         <!--4th --comment-->
+                                        <div class="c-container">
+                                        
+                                          <div class="userImg-round">
+                                            <img src="img/defaultUser.jpg">
+                                            <!--if user is loogged in show his profile picture-->
+                                          </div>
+                                          <div class="right-container user-comment-container">
+                                        
+                                            <div class="user-details">
+                                              <div class="user-name">
+                                                Hugh Jackman
+                                              </div>
+                                              <div class="comment-date">18 hours ago</div>
+                                              <div class="reportBtnWraper">
+                                        
+                                                <span class="material-icons">more_vert</span>
+                                        
+                                              </div>
+                                            </div>
+                                        
+                                            <div class="comm-wraper toggle-show-more-less-comm-btn">
+                                              <div class="comm-txt">
+                                                Unrequited love and the melody of this song take you on another level. Rather.... this masterpiece gives one the
+                                                courage to stand tall against all odds and obstacles in love. This is a miasma of your breath against that
+                                                person lorem lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sint deserunt optio
+                                                autem facere fuga ullam adipisci unde dolor ea, sequi impedit aperiam tempore velit nihil, neque natus
+                                                consectetur? Hic! who you're fighting for. A life saver to say the least 🥰❤️
+                                              </div>
+                                              <div class="show-more-less-comm-btn" onclick="handleToogling(event)"></div>
+                                            </div>
+                                        
+                                        
+                                            <div class="like-dislike-replay-container">
+                                        
+                                              <button class="vid-header-icon small-cust-btns">
+                                                <span class="material-icons sm-icon" style="margin-right:10px">thumb_up_off_alt</span>
+                                                <span>999.1k</span>
+                                              </button>
+                                        
+                                        
+                                              <button class="vid-header-icon small-cust-btns">
+                                                <span class="material-icons sm-icon" style="margin-right:10px">thumb_down_off_alt</span>
+                                                <span>999.1M</span>
+                                              </button>
+                                        
+                                              <button class="vid-header-icon small-cust-btns align-right-on-sm" onclick="open_level0_replayContainer(event)">
+                                                REPLAY
+                                              </button>
+                                        
+                                            </div>
+                                        
+                                            <!--interface for replaying-->
+                                            <div class="r-container replayBox">
+                                        
+                                              <div class="login-user">
+                                                <img src="img/defaultUser.jpg">
+                                                <!--if user is loogged in show his profile picture-->
+                                              </div>
+                                        
+                                              <div class="right-container">
+                                                <div class="anim-container" onclick="focusWithin(this,event);">
+                                                  <div class="comment-input-line" contenteditable="true" oninput="countLength(this)">
+                                                  </div>
+                                                  <div class="Anim-line"></div>
+                                                </div>
+                                                <div class="custom-button-wraper replay-btns-container">
+                                                  <button style="margin-right:15px;background-color: transparent;color:#aaaaaa;"
+                                                    onclick="close_level0_replayContainer(this,event)">CANCEL</button>
+                                                  <BUTTON class="btn-sky-blue" onclick="submitReplay(this,event)">Replay</BUTTON>
+                                                </div>
+                                        
+                                              </div>
+                                        
+                                            </div>
+                                        
+                                            <!--replay loader-->
+                                            <div class="loader"></div>
+                                        
+                                        
+                                        
+                                            <!--interface for showing all replaies-->
+                                            <div></div>
+                                        
+                                          </div>
+                                        
+                                        </div>
+            
+
+
+                  </div>
+                  
+                 </div>
+              
+            </div>
+            <div class="videoSuggestionSide">
+            
+
+
+                <div class="comment_wraper">
+
+                </div>
+
+                <div class="video_wraper">
+
+
+                  
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+                                      
+                                      <div class="smallVideosWraper">
+                                      
+                                        <div class="thumbnails_wraper">
+                                          <img src="img/1Thumbnail.jpg" alt="" srcset="">
+                                      
+                                          <div class="video_length_box">
+                                            28:29
+                                          </div>
+                                          <div class="upperControl_btns_on_hover">
+                                            <div class="text_right"> <i class="fa-solid fa-clock watch_later"></i></div>
+                                            <div class="addToQueueBox">
+                                              <div id="text_tog"></div>
+                                              <div><i class="fa-solid fa-bars-staggered"></i></div>
+                                            </div>
+                                          </div>
+                                      
+                                        </div>
+                                        <div>
+                                          <div class="video_and_chanell_description">
+                                      
+                                            <div class="videoDesc">
+                                              Follow this 5 steps to improve your sass skills Follow this 5 steps to improve your sass skills
+                                            </div>
+                                      
+                                            <div class="chanellName">
+                                              <a href="">Kevin Powell <i class="fa-solid fa-check-circle"></i></a>
+                                            </div>
+                                            <div class="views">
+                                              <span>303k views</span>
+                                              <span class="smallDot">&#9679</span>
+                                              <span>99 years ago</span>
+                                            </div>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      
+                                      </div>
+
+                </div>
+
+            </div>
+           </div><!---grid container-->
+           
+         </div>
+
+        </div><!--ri8 container closed-->
+        
+</div>
+
+  
+
+
+<script src="js/layout.js"></script>
+<script src="js/videoplayer.js"></script>
+
+
+</body>
+</html>

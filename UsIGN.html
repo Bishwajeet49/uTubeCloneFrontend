@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!--google-icons--->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+<link rel="stylesheet" href="css/signup-signin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wraper">
+
+          <div class="Platform-name txt-center">
+           <span>M</span><span>y</span><span>T</span><span>u</span><span>b</span><span>e</span>
+          </div>
+
+          <div class="header-txt txt-center">Sign in</div>
+          
+          <div class="header-desc txt-center">to continue to MyTube</div>
+
+          <div class="email-container">
+            <input id="emailInputField" type="email" autocomplete="username" spellcheck="false"  name="identifier" 
+            autocapitalize="none" >
+            <div class="anim">Enter your Email </div>
+          </div>
+
+          <div class="err-msg-container">
+           <span class="material-icons">error</span>
+           <span id="error-msg"></span>
+          </div>
+
+          <div class="forget-email">
+            <button  type="button">Forgot email?</button>
+          </div>
+
+          <div class="col-2-grid">
+
+            <div class="create-account">
+                <button  type="button">Create account</button>
+            </div>
+
+            <div class="next">
+                <button  id="submitEmail" type="button" style="margin-left:auto;">Next</button>
+            </div>
+
+
+
+          </div>
+
+          <div class="sign-in-footer">
+            <div class="lang">
+            <select name="" id="selectLang">
+                <option>English(us)</option>
+                <option>English(uk)</option>
+                <option>Hindi</option>
+            </select>
+            </div>
+            <div class="right-container">
+                <span>Help</span>
+                <span class="privacy">Privacy</span>
+                <span>Terms</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    <script src="js/sign-signup.js"></script>
+</body>
+</html>
